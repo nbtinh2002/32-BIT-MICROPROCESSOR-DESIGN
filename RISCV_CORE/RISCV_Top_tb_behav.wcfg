@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="RISCV_Top_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="RISCV_Top_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="268.195 ns"></ZoomStartTime>
+      <ZoomEndTime time="367.696 ns"></ZoomEndTime>
+      <Cursor1Time time="309.060 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="241"></NameColumnWidth>
+      <ValueColumnWidth column_width="72"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="9" />
+   <wave_markers>
+      <marker time="100000" label="" />
+      <marker time="320000" label="" />
+      <marker time="20000" label="" />
+      <marker time="40000" label="" />
+      <marker time="60000" label="" />
+      <marker time="80000" label="" />
+      <marker time="120000" label="" />
+      <marker time="140000" label="" />
+      <marker time="160000" label="" />
+      <marker time="180000" label="" />
+      <marker time="200000" label="" />
+      <marker time="220000" label="" />
+      <marker time="240000" label="" />
+      <marker time="260000" label="" />
+      <marker time="340000" label="" />
+      <marker time="360000" label="" />
+      <marker time="380000" label="" />
+      <marker time="420000" label="" />
+      <marker time="400000" label="" />
+      <marker time="0" label="" />
+      <marker time="300000" label="" />
+      <marker time="280000" label="" />
+   </wave_markers>
+   <wvobject fp_name="/RISCV_Top_tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISCV_Top_tb/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="group89" type="group">
+      <obj_property name="label">IF</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/RISCV_Top_tb/uut/IF/InstrD" type="array">
+         <obj_property name="ElementShortName">InstrD[31:0]</obj_property>
+         <obj_property name="ObjectShortName">InstrD[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_Top_tb/uut/IF/PCD" type="array">
+         <obj_property name="ElementShortName">PCD[31:0]</obj_property>
+         <obj_property name="ObjectShortName">PCD[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group5" type="group">
+      <obj_property name="label">ID</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/RISCV_Top_tb/uut/ID/BranchE" type="logic">
+         <obj_property name="ElementShortName">BranchE</obj_property>
+         <obj_property name="ObjectShortName">BranchE</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_Top_tb/uut/ID/ResultSrcE" type="logic">
+         <obj_property name="ElementShortName">ResultSrcE</obj_property>
+         <obj_property name="ObjectShortName">ResultSrcE</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_Top_tb/uut/ID/MemWriteE" type="logic">
+         <obj_property name="ElementShortName">MemWriteE</obj_property>
+         <obj_property name="ObjectShortName">MemWriteE</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_Top_tb/uut/ID/RegWriteE" type="logic">
+         <obj_property name="ElementShortName">RegWriteE</obj_property>
+         <obj_property name="ObjectShortName">RegWriteE</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_Top_tb/uut/ID/ALUSrcE" type="logic">
+         <obj_property name="ElementShortName">ALUSrcE</obj_property>
+         <obj_property name="ObjectShortName">ALUSrcE</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_Top_tb/uut/ID/ALUControlE" type="array">
+         <obj_property name="ElementShortName">ALUControlE[3:0]</obj_property>
+         <obj_property name="ObjectShortName">ALUControlE[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_Top_tb/uut/ID/RD1E" type="array">
+         <obj_property name="ElementShortName">RD1E[31:0]</obj_property>
+         <obj_property name="ObjectShortName">RD1E[31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_Top_tb/uut/ID/RD2E" type="array">
+         <obj_property name="ElementShortName">RD2E[31:0]</obj_property>
+         <obj_property name="ObjectShortName">RD2E[31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_Top_tb/uut/ID/RS1E" type="array">
+         <obj_property name="ElementShortName">RS1E[4:0]</obj_property>
+         <obj_property name="ObjectShortName">RS1E[4:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_Top_tb/uut/ID/RS2E" type="array">
+         <obj_property name="ElementShortName">RS2E[4:0]</obj_property>
+         <obj_property name="ObjectShortName">RS2E[4:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_Top_tb/uut/ID/RDE" type="array">
+         <obj_property name="ElementShortName">RDE[4:0]</obj_property>
+         <obj_property name="ObjectShortName">RDE[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_Top_tb/uut/ID/ImmExtE" type="array">
+         <obj_property name="ElementShortName">ImmExtE[31:0]</obj_property>
+         <obj_property name="ObjectShortName">ImmExtE[31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_Top_tb/uut/ID/PCE" type="array">
+         <obj_property name="ElementShortName">PCE[31:0]</obj_property>
+         <obj_property name="ObjectShortName">PCE[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group6" type="group">
+      <obj_property name="label">EX</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/RISCV_Top_tb/uut/EX/PCSrcE" type="logic">
+         <obj_property name="ElementShortName">PCSrcE</obj_property>
+         <obj_property name="ObjectShortName">PCSrcE</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_Top_tb/uut/EX/ResultSrcM" type="logic">
+         <obj_property name="ElementShortName">ResultSrcM</obj_property>
+         <obj_property name="ObjectShortName">ResultSrcM</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_Top_tb/uut/EX/PCTargetE" type="array">
+         <obj_property name="ElementShortName">PCTargetE[31:0]</obj_property>
+         <obj_property name="ObjectShortName">PCTargetE[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_Top_tb/uut/EX/ALUResultM" type="array">
+         <obj_property name="ElementShortName">ALUResultM[31:0]</obj_property>
+         <obj_property name="ObjectShortName">ALUResultM[31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_Top_tb/uut/EX/WriteDataM" type="array">
+         <obj_property name="ElementShortName">WriteDataM[31:0]</obj_property>
+         <obj_property name="ObjectShortName">WriteDataM[31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_Top_tb/uut/EX/MemWriteM" type="logic">
+         <obj_property name="ElementShortName">MemWriteM</obj_property>
+         <obj_property name="ObjectShortName">MemWriteM</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_Top_tb/uut/EX/RegWriteM" type="logic">
+         <obj_property name="ElementShortName">RegWriteM</obj_property>
+         <obj_property name="ObjectShortName">RegWriteM</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_Top_tb/uut/EX/RDM" type="array">
+         <obj_property name="ElementShortName">RDM[4:0]</obj_property>
+         <obj_property name="ObjectShortName">RDM[4:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group56" type="group">
+      <obj_property name="label">MEM</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/RISCV_Top_tb/uut/MEM/ALUResultW" type="array">
+         <obj_property name="ElementShortName">ALUResultW[31:0]</obj_property>
+         <obj_property name="ObjectShortName">ALUResultW[31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_Top_tb/uut/MEM/ReadDataW" type="array">
+         <obj_property name="ElementShortName">ReadDataW[31:0]</obj_property>
+         <obj_property name="ObjectShortName">ReadDataW[31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_Top_tb/uut/MEM/ResultSrcW" type="logic">
+         <obj_property name="ElementShortName">ResultSrcW</obj_property>
+         <obj_property name="ObjectShortName">ResultSrcW</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_Top_tb/uut/MEM/RegWriteW" type="logic">
+         <obj_property name="ElementShortName">RegWriteW</obj_property>
+         <obj_property name="ObjectShortName">RegWriteW</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_Top_tb/uut/MEM/RDW" type="array">
+         <obj_property name="ElementShortName">RDW[4:0]</obj_property>
+         <obj_property name="ObjectShortName">RDW[4:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group10" type="group">
+      <obj_property name="label">WB</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/RISCV_Top_tb/uut/WB/ResultW" type="array">
+         <obj_property name="ElementShortName">ResultW[31:0]</obj_property>
+         <obj_property name="ObjectShortName">ResultW[31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/RISCV_Top_tb/uut/FB/ForwardBE" type="array">
+      <obj_property name="ElementShortName">ForwardBE[1:0]</obj_property>
+      <obj_property name="ObjectShortName">ForwardBE[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISCV_Top_tb/uut/FB/ForwardAE" type="array">
+      <obj_property name="ElementShortName">ForwardAE[1:0]</obj_property>
+      <obj_property name="ObjectShortName">ForwardAE[1:0]</obj_property>
+   </wvobject>
+</wave_config>
