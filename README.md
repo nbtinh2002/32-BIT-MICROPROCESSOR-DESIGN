@@ -175,7 +175,7 @@ These files are generated from the build and should not be checked in unless exp
 
 ## License
 
-No license has been declared yet. Add one before public release.
+This project is licensed under the [MIT License](LICENSE).
 
 ## Contact
 
