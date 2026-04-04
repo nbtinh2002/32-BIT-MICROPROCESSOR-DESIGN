@@ -1,0 +1,67 @@
+`timescale 1ns / 1ps
+//////////////////////////////////////////////////////////////////////////////////
+// Company: 
+// Engineer: 
+// 
+// Create Date:    19:37:18 04/20/2024 
+// Design Name: 
+// Module Name:   instruction_fetch_cc
+// Project Name: 
+// Target Devices: 
+// Tool versions: 
+// Description: 
+//
+// Dependencies: 
+//
+// Revision: 
+// Revision 0.01 - File Created
+// Additional Comments: 
+//
+//////////////////////////////////////////////////////////////////////////////////
+module instruction_fetch_cc(  
+    input clk, rst, 
+    input PCSrcE,
+    input [31:0] PCTargetE,
+    
+    output [31:0] InstrD, 
+    output [31:0] PCD
+); 
+    wire [31:0] PC_F, PCF, PCPlus4F, InstrF;
+
+    mux2 MUX_F(
+        .a(PCPlus4F), 
+        .b(PCTargetE), 
+        .s(PCSrcE), 
+        .c(PC_F)
+    );
+
+    program_counter PC(
+        .clk(clk), 
+        .rst(rst),
+        .PC_Next(PC_F), 
+        .PC(PCF)
+    );
+
+    instruction_memory INSTR_MEM(
+        .rst(rst), 
+        .A(PCF), 
+        .RD(InstrF)
+    );
+
+    adder PC_ADDER(
+        .a(PCF), 
+        .b(32'd4), 
+        .c(PCPlus4F)
+    );
+
+    reg_1 REG_IFID(
+        .clk(clk),
+        .rst(rst),
+        .InstrF(InstrF),
+        .PCF(PCF),
+        .InstrD(InstrD),
+        .PCD(PCD)
+    );
+    
+endmodule
+
