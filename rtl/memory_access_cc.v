@@ -1,3 +1,10 @@
+//=============================================================================
+// Author       : Nguyen Bao Tinh
+// Project      : 32-bit RISC-V Microprocessor
+// Module       : memory_access_cc.v
+// Created      : 2026-04-04
+// Description  : Handles memory-stage pipeline registers and access.
+//=============================================================================
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
 // Company: 

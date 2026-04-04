@@ -1,3 +1,10 @@
+//=============================================================================
+// Author       : Nguyen Bao Tinh
+// Project      : 32-bit RISC-V Microprocessor
+// Module       : data_memory.v
+// Created      : 2026-04-04
+// Description  : Implements the data memory array and access logic.
+//=============================================================================
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
 // Company: 

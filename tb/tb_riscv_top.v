@@ -1,3 +1,10 @@
+//=============================================================================
+// Author       : Nguyen Bao Tinh
+// Project      : 32-bit RISC-V Microprocessor
+// Module       : tb_riscv_top.v
+// Created      : 2026-04-04
+// Description  : Top-level testbench for the RISC-V core.
+//=============================================================================
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
 // Company: 

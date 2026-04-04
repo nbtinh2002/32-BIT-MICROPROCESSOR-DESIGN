@@ -1,3 +1,10 @@
+//=============================================================================
+// Author       : Nguyen Bao Tinh
+// Project      : 32-bit RISC-V Microprocessor
+// Module       : instruction_fetch_cc.v
+// Created      : 2026-04-04
+// Description  : Fetches instructions and advances the program counter.
+//=============================================================================
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
 // Company: 

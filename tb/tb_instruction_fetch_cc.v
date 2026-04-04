@@ -1,4 +1,10 @@
-
+//=============================================================================
+// Author       : Nguyen Bao Tinh
+// Project      : 32-bit RISC-V Microprocessor
+// Module       : tb_instruction_fetch_cc.v
+// Created      : 2026-04-04
+// Description  : Directed testbench for the instruction fetch stage.
+//=============================================================================
 `timescale 1ns/1ps
 
 module tb_instruction_fetch_cc; 

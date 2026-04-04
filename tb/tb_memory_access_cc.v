@@ -1,4 +1,12 @@
 `timescale 1ns / 1ps
+//=============================================================================
+// Author       : Nguyen Bao Tinh
+// Project      : 32-bit RISC-V Microprocessor
+// Module       : tb_memory_access_cc.v
+// Created      : 2026-04-04
+// Description  : Directed testbench for the memory access stage.
+//=============================================================================
+`timescale 1ns / 1ps
 
 ////////////////////////////////////////////////////////////////////////////////
 // Company: 

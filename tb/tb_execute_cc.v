@@ -1,3 +1,10 @@
+//=============================================================================
+// Author       : Nguyen Bao Tinh
+// Project      : 32-bit RISC-V Microprocessor
+// Module       : tb_execute_cc.v
+// Created      : 2026-04-04
+// Description  : Directed testbench for the execute stage.
+//=============================================================================
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
 // Company: 

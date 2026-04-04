@@ -1,3 +1,10 @@
+//=============================================================================
+// Author       : Nguyen Bao Tinh
+// Project      : 32-bit RISC-V Microprocessor
+// Module       : tb_instruction_decode_cc.v
+// Created      : 2026-04-04
+// Description  : Directed testbench for the instruction decode stage.
+//=============================================================================
 `timescale 1ns / 1ps
 
 ////////////////////////////////////////////////////////////////////////////////

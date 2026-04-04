@@ -1,3 +1,10 @@
+//=============================================================================
+// Author       : Nguyen Bao Tinh
+// Project      : 32-bit RISC-V Microprocessor
+// Module       : riscv_top.v
+// Created      : 2026-04-04
+// Description  : Top-level pipelined RISC-V microprocessor integration.
+//=============================================================================
 `timescale 1ns / 1ps
 module riscv_top(
     input clk,

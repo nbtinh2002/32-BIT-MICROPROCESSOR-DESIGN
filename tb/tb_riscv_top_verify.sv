@@ -1,3 +1,10 @@
+//=============================================================================
+// Author       : Nguyen Bao Tinh
+// Project      : 32-bit RISC-V Microprocessor
+// Module       : tb_riscv_top_verify.sv
+// Created      : 2026-04-04
+// Description  : Self-checking verification testbench for the RISC-V core.
+//=============================================================================
 `timescale 1ns/1ps
 
 module tb_riscv_top_verify;

@@ -2,12 +2,17 @@
 
 Verilog/SystemVerilog implementation of a 32-bit pipelined RISC-V microprocessor with a filelist-driven build flow, self-checking verification testbench, and synthesis reporting support.
 
+This is a personal project by Nguyen Bao Tinh.
+
 ## Project Summary
 
 | Item | Description |
 |---|---|
 | Project Name | 32-BIT RISC-V Microprocessor |
 | Target | Education / Research |
+| Project Type | Personal project |
+| Owner | Nguyen Bao Tinh |
+| Email | nbtinh2002@gmail.com |
 | Design Style | Pipelined RTL microarchitecture |
 | Verification | SystemVerilog directed verification bench |
 | Main Tools | Vivado, Icarus Verilog, Verilator, GTKWave |
@@ -174,4 +179,8 @@ No license has been declared yet. Add one before public release.
 
 ## Contact
 
-For project maintenance or documentation updates, add the owner name, email, or repository contact here.
+Nguyen Bao Tinh
+
+Email: nbtinh2002@gmail.com
+
+Personal project maintained by Nguyen Bao Tinh.
